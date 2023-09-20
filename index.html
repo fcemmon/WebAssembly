@@ -1,17 +1,51 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>WebAssemblyApp</title>
+    <title>Завет Христа</title>
+    <base href="/" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="css/MudBlazor.min.css" rel="stylesheet" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
-    <link href="WebAssemblyApp.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/database.js"></script>
+    <script type="text/javascript" src="js/MyUtils.js"></script>
+
+    <style>
+        #tooltip {
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        app {
+            height: 100%;
+        }
+        mud-container {
+            height: 100%;
+        }
+        mud-main-content{
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+    <app>
+        <span class="visually-hidden">Загрузка...   </span>
+        <span class="spinner-border text-primary" role="status"></span>
+    </app>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -19,6 +53,8 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/MudBlazor.min.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
 </html>

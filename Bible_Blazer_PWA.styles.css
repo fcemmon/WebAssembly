@@ -1,0 +1,19 @@
+/* /Pages/Lessons.razor.rz.scp.css */
+details summary[b-pc9yls5jf3]::-webkit-details-marker {
+    display: none
+}
+
+details > summary[b-pc9yls5jf3] {
+    list-style: none;
+}
+
+
+details summary[b-pc9yls5jf3]:before {
+    content: '\f0fe';
+    font-family: "Font Awesome 5 free";
+    margin-right: 7px;
+}
+
+details[open] summary[b-pc9yls5jf3]:before {
+    content: '\f146';
+}
