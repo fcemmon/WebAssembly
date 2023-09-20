@@ -5,7 +5,7 @@
       "url": "Assets\/bibleRefModeChange.png"
     },
     {
-      "hash": "sha256-2gnfh017hVkD31rCJ+XWyyMyHuutJRbQ01qcKAiVXzA=",
+      "hash": "sha256-kys+is21FXkDagLKDV0l7BpDOhTBiwRjUP38NW14Qqo=",
       "url": "Assets\/books.json"
     },
     {
@@ -53,7 +53,7 @@
       "url": "Assets\/lessons\/replacements.json"
     },
     {
-      "hash": "sha256-ZRCkXEy1fR2CxSdm1LvhMBu5zYB3jJoASiEg5iUiShk=",
+      "hash": "sha256-Ivlc+RTDatfIZBoINWXWYHCJb+8hFoXZb8RVNDEX7nY=",
       "url": "Assets\/LessonUnits.json"
     },
     {
@@ -201,7 +201,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-r9bJxPJQoyjD3F6IDF3OlFt2c9zlTXjZihG7BNcsScc=",
+      "hash": "sha256-9QgTvOQ0VwAYZC8tQ8ypA\/nqN+wHyvjswFj3+mXCTho=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -209,7 +209,7 @@
       "url": "_framework\/AngleSharp.dll"
     },
     {
-      "hash": "sha256-L7P8Fe7ccju\/9qXTmz19GONe7N3AtyNmZjnNBOBF9x0=",
+      "hash": "sha256-Z\/Q3apt8hem4zmkLUkTA5ojHsaVzJy\/DxRvGNybfm6U=",
       "url": "_framework\/Bible_Blazer_PWA.dll"
     },
     {
@@ -537,5 +537,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "Ow7qiwF0"
+  "version": "F+hjnarX"
 };
